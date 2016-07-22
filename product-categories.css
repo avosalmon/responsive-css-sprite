@@ -1,0 +1,42 @@
+.container {
+    width: 97.5%;
+    height: 500px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    background-color: #EFEFEF;
+}
+
+.row {
+    clear: both;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.product-category {
+    width: 49.5%;
+    height: 100%;
+    padding-top: 15%;
+    display: block;
+    background-size: 100%;
+    background-image: url('product-categories@2x.png');
+    background-repeat: no-repeat;
+}
+
+.product-category-dishes { background-position: 0 0%; }
+.product-category-kitchen { background-position: 0 9.090909%; }
+.product-category-nichiyouhin { background-position: 0 18.181818%; }
+.product-category-fabric { background-position: 0 27.272727%; }
+.product-category-poster { background-position: 0 36.363636%; }
+.product-category-interior { background-position: 0 45.454545%; }
+.product-category-fashion { background-position: 0 54.545455%; }
+.product-category-kago { background-position: 0 63.636364%; }
+.product-category-tableware { background-position: 0 72.727273%; }
+.product-category-kids-item { background-position: 0 81.818182%; }
+.product-category-foods { background-position: 0 90.909091%; }
+.product-category-books { background-position: 0 100%; }
